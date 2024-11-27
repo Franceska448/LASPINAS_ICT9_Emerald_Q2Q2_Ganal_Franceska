@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>ICT Seatwork #2 </title>
+
+    <!-- CSS Design -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed top">
+    <!-- Brand/Logo -->
+     <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+
+        <!-- Add Links -->
+         <div class="collapse navbar-collapse">
+
+            <!-- me-auto adjust pushes the search bar to the right -->
+             <ul class="navbar-nav me-auto">
+               <li class="nav-item"> <a class="nav-link" href="page2.html">Page 1</a> </li>
+               
+             </ul>
+
+             <!-- Add Search Bar -->
+              <form class="d-flex">
+                <input class="form-control" type="text" placeholder="search...">
+                <button class="btn btn-success" type="button">Search</button>
+              </form>
+         </div>
+     </div>
+</nav>
+<h1> Welcome to Roboces </h1>
+
+<style>
+    body{ background-color:rgb(60, 80, 102);}
+ </style>
+
+
+</head>
+<body>
+    <!-- SAMPLE ROW AND COL FORMS -->
+     <form>
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Enter email" name="email">
+            </div>
+
+            <div class="col">
+                <input type="password" class="form-control" placeholder="Enter Password" name="pswd">
+
+            </div>
+        </div>
+     </form>
+
+     <!-- OTHER SAMPLE FORM WITH BOOTSTRAP -->
+      <div class="container p-5 mt-5">
+        <!-- Input Sample -->
+         <label> Name </label>
+         <input type="text" class="form-control" id="user" placeholder="type here">
+
+         <!-- Text are sample -->
+
+         <label> Email </label>
+         <textare class="form-control" rows="5" id="comment" placeholder="type here"></textare>
+
+         <!-- Check Box -->
+
+         <div class="form-check">
+            <h6> Choose (at least 2) Preffered Robotics Topics </h6>
+            <label class="form-check-label"> <input type="checkbox" class="form-check-input" value=""> Electronics </label>
+
+         </div>
+
+         <!-- Radio -->
+          <div class="form-check">
+            <h6> Programming </h6>
+            <label class="form-check-label"> <input type="radio"class="form-check-input" name="optradio"> Programming </label>
+            <label class="form-check-label"> <input type="radio"class="form-check-input" name="optradio"> Mechanical Design </label>
+          </div>
+
+          <!-- Select/Dropdown -->
+
+          <div class="form-group">
+            <h6> Robotics Experience Level </h6>
+            <label for="sel1"> Select level:</label>
+            <select class="form-control" id="sel1">
+                <option> Beginner </option>
+                <option> Intermediate </option>
+                <option> Advanced </option>
+            </select>
+          </div>
+      </div>
+
+
+
+    
+  
+</body>
+</html>
